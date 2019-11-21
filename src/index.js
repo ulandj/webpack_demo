@@ -24,3 +24,7 @@ function component() {
 }
 
 document.body.appendChild(component());
+
+// Babel demo
+const int_arr = [1, 2, 3].map((n) => n + 1);
+document.write(int_arr);
